@@ -2,7 +2,7 @@
    "name": "Ban All Bot",
    "description": "Telegram Bot",
    "repository": "https://github.com/venombolteop/Banall",
-   "logo": "https://te.legra.ph/file/0b373de1c657129297c39.jpg",
+   "logo": "https://graph.org/file/4308dcc94aacbdc3ed0c9-c04a9611c927588ddc.jpg",
    "image": "heroku/python",
    "env": {
       "API_ID": {
@@ -22,7 +22,7 @@
       },      
       "SUDO": {
             "description": "Sudo users id space by space",
-            "value": "7048354045",
+            "value": "",
             "required": true  
       }
    },
