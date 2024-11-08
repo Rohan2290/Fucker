@@ -59,7 +59,7 @@ for x in Var.SUDO:
 @Ayu.on(events.NewMessage(pattern="^/help"))
 async def help(event):
     # URL to the image you want to send with the help message
-    image_url = "https://te.legra.ph/file/310a7fad596b00513692a.jpg"
+    image_url = "https://graph.org/file/4308dcc94aacbdc3ed0c9-c04a9611c927588ddc.jpg"
     
     # Help message text with the available commands
     help_text = """
@@ -99,9 +99,9 @@ async def start_command(event):
         "ᴛʜɪs ʙᴏᴛ ɪs ᴅᴇsɪɢɴᴇᴅ ᴛᴏ ʙᴀɴ ᴀɴᴅ ᴜɴʙᴀɴ ᴜsᴇʀs ɪɴ ɢʀᴏᴜᴘs.\n\n"
         "ʜɪᴛ `/help` ᴛᴏ ɢᴇᴛ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs.",
         buttons=[
-            [Button.url("ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ", url="https://t.me/venomOwners")],
-            [Button.url("ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://t.me/venom_chatz")],
-            [Button.url("ʀᴇᴘᴏ ʟɪɴᴋ", url="https://github.com/venombolteop/Banall")], 
+            [Button.url("ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ", url="https://t.me/pablo_730")],
+            [Button.url("ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://t.me/pablo_730")],
+            [Button.url("ʀᴇᴘᴏ ʟɪɴᴋ", url="https://t.me/+5k0qkpxNK9IzYzc1")], 
         ],
         file='https://te.legra.ph/file/310a7fad596b00513692a.jpg',  # Replace with your image URL
     )
