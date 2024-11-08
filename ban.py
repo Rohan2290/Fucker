@@ -46,7 +46,7 @@ RIGHTS = ChatBannedRights(
 
 logging.basicConfig(level=logging.INFO)
 
-print("Starting.....")
+print("Fucking.....")
 
 Ayu = TelegramClient('Ayu', Var.API_ID, Var.API_HASH).start(bot_token=Var.BOT_TOKEN)
 
@@ -103,7 +103,7 @@ async def start_command(event):
             [Button.url("ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://t.me/pablo_730")],
             [Button.url("ʀᴇᴘᴏ ʟɪɴᴋ", url="https://t.me/+5k0qkpxNK9IzYzc1")], 
         ],
-        file='https://te.legra.ph/file/310a7fad596b00513692a.jpg',  # Replace with your image URL
+        file='https://graph.org/file/4308dcc94aacbdc3ed0c9-c04a9611c927588ddc.jpg',  # Replace with your image URL
     )
 
 
